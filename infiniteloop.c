@@ -1,3 +1,4 @@
+#C program fir infinite loop.
 #loop become infinite if condition never become false.
 #include <stdio.h>
  
