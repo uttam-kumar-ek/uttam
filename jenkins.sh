@@ -1,3 +1,4 @@
+################################################################################################################################################
 Create a Jenkins shell script job
 Jenkins can run any shell script and report on the success or failure depending on whether the script exits with 0, for success, or non-zero, for failure.
 
@@ -13,6 +14,7 @@ Click Add build step and select Execute shell.
 Enter:
 ./fibonacci.sh 
 Click Save.
+###########################################################################
 On the new page that appears, click Build Now.
 You should see a new job scheduled in the Build History table.
 When it completes, the little ball should be blue which means the job succeeded without errors.
@@ -27,6 +29,7 @@ Click Shell job.
 Click Configure.
 Edit the configuration and remove 30 from the build step so it is just:
 ./fibonacci.sh
+#############################################################################
 Save the configuration and click Build Now.
 Now when the job completes, there will be a little red ball next to the job link, which means the job failed with an error.
 Click the job link.
