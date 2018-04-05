@@ -1,3 +1,4 @@
+#script to count file in folder
 #!/bin/bash
 path_dir=$(echo $PATH | sed 's/:/ /g')
 total=0
